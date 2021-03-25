@@ -19,7 +19,7 @@ const CoFounder = () => {
         <div className="row justify-content-center p-3">
                 {
                     [0,1].map((item,i)=>(
-                        <div className="col-md-5 col-sm-8 ">
+                        <div className="col-md-5 col-sm-8 m-2">
                             <CoFounderCard image={images[i]} name={coFoundersData.card[i].name} description={coFoundersData.card[i].desc}/>
                         </div>
                     ))

@@ -1,5 +1,5 @@
 .card, .package-card{
-    min-height : 250px;
+    min-height : 300px;
     width: 100%;
     border-radius : 20px;
     background-color: #fff;
@@ -33,7 +33,7 @@
 
 .card-buttons{
     display : flex;
-    margin: 10px;
+    margin: 15px !important;
 }
 .card-buttons button{
     margin: 5px;

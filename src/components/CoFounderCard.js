@@ -13,7 +13,7 @@ const CoFounderCard = ({name,description,image}) => {
                     <div className="card-desc">{description}</div>
                 </div>
             </div>
-            <div className="card-buttons">
+            <div className="card-buttons m-2">
                 <ContainedButton text="learn more"/>
                 <Button variant="outline-secondary" style={{width : "100%"}}>Website</Button>
             </div>
