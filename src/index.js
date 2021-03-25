@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/css/index.css'
+import './styles/css/footer.css'
+import './styles/css/home.css'
+import './styles/css/card.css'
+import './styles/css/title.css'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
