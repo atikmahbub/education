@@ -83,8 +83,28 @@
 }
 
 
+.small-card{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px rgb(0 0 0 / 15%);
+    padding:  20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 80px;
+}
+
+.small-card-text{
+    font-size :  1.1rem;
+    margin-left: 10px;
+}
+
 @media only screen and (max-width: 768px) {
     .card-desc{
         width: 100%;
+    }
+    .small-card{
+        margin-bottom: 20px;
     }
 }

@@ -1,0 +1,29 @@
+.tutoring{
+    margin-top: 70px;
+}
+
+.ti , .feature-tutoring{
+    margin-top: 20px;
+    padding-right: 140px;
+    padding-left : 140px;
+    padding-top: 20px;
+}
+.card-desc{
+    margin-bottom: 10px;
+    text-align: justify;
+    width: 100%;
+}
+
+.ticard-image{
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 768px) {
+    .ti{
+        padding: 10px;
+    }
+    .feature-tutoring{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
