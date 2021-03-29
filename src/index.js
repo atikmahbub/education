@@ -8,6 +8,8 @@ import "./styles/css/home.css";
 import "./styles/css/card.css";
 import "./styles/css/title.css";
 import "./styles/css/tutoring.css";
+import "./styles/css/hosting.css";
+import "./styles/css/feature.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

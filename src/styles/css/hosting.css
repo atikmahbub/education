@@ -1,0 +1,22 @@
+.hosting{
+    margin-top: 50px;
+}
+
+.highlight{
+    min-height: 400px;
+    background-color: #453D80;
+    width: 100%;
+    padding: 70px;
+}
+
+.highlight .small-card{
+    color :white;
+    background-color:#3B346D;
+    box-shadow: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .highlight{
+        padding : 30px;
+    }
+}

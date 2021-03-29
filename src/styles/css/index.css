@@ -7,6 +7,10 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+body{
+    background-color: #F9F9F9;
+}
+
 html {
     scroll-behavior: smooth;
     overflow: scroll;

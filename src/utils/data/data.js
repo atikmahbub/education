@@ -100,3 +100,72 @@ export const academicCardData = [
   "Education Academy is dedicated to improving students’ basic math skills in the classroom. We teach a variety of math subjects ranging from elementary-level to college-level math. We can provide specialized instruction in the following topics: geometry, algebra, trigonometry, pre-calculus, calculus, probability and statistics, AP math courses, differential equations, and linear algebra.",
   "Our tutors are committed to tailoring lesson plans for each individual student to boost grades and strengthen confidence in math. Please feel free to contact us with any additional inquiries regarding your student’s math needs in the classroom.",
 ];
+
+export const hostingFeatureData = [
+  {
+    title: "pre-competition",
+    description:
+      "We’ve made setting up your competition as quick and simple as possible, minimizing logistical roadblocks at every step along the way.",
+    features: [
+      {
+        heading: "Select a date",
+        description:
+          "Tell us when you want your meet to be, including the time slots you want to set for the test(s) you plan to offer. We set up those intervals— no manual proctoring necessary.",
+      },
+      {
+        heading: "Register Students",
+        description:
+          "Tell us who’s coming. Send us a list of competitors that will be participating in each academic competition. Because of our automated online system, we accept entries far later than our paper testing counterparts. We’ll generate unique user IDs for each student, as well as user IDs for graders for writing-based tests.",
+      },
+      {
+        heading: "Custom Links",
+        description:
+          "Tell us when you want students to receive their custom, ID-associated links. We’ll send them by email to registered schools and/or students, but don’t worry—the tests won’t be accessible until the time slots you’ve selected.",
+      },
+    ],
+  },
+  {
+    title: "competition day",
+    description:
+      "Your competition day matters to us. When it’s time for your testing to begin, we’re here to make sure everything runs as smoothly as possible.",
+    features: [
+      {
+        header: "Security",
+        description:
+          "Students use their custom links to enter into the testing environment, where they are verified using their unique IDs. User screens can be recorded and locked into the testing environment, so any student attempts to leave the testing environment are tracked, recorded, and prevented. We can even require cameras to be on, but with the rest of our security measures, you might not even need this.",
+      },
+      {
+        header: "Live Troubleshooting",
+        description:
+          "On testing day, we are available for immediate troubleshooting. Often, we can see and resolve issues from our end without the user even contacting us (with access to a host of information about the student computer). If this happens, we can re-set exams with the precise time left.",
+      },
+      {
+        header: "Exam, Answer Submission, and Grading",
+        description:
+          "Our software supports a range of answer format options as appropriate (e.g., scientific notation) as well as the ability to toggle between acceptable formats. It also immediately closes out the exam when the time limit is up. After student answers are submitted, graded answer sheets and results across competitions are generated instantly. No more subjective grading or waiting for graders!",
+      },
+    ],
+  },
+  {
+    title: "post-competition",
+    description:
+      "Our support doesn’t end with the competition. In fact, we think our best work takes place when the competition is over.",
+    features: [
+      {
+        heading: "Answer Keys",
+        description:
+          "We return student grades and rankings immediately after the test, so students and schools don’t need to wait to hear how they did. We’re all about efficiency here.",
+      },
+      {
+        heading: "Detailed Analytics",
+        description:
+          "Curious about how an individual student’s performance has evolved over time? Or about subjects where an entire team showed weakness? Or maybe you want to know how much time students spent on different types of questions. We’re here to help. We offer data-backed analytics that can be sent to student and coaches. Our detailed feedback can help students perform better in future competitions.",
+      },
+      {
+        heading: "Practice Materials",
+        description:
+          "We won’t leave you hanging. We offer a range of targeted practice materials in our shop. Students can practice in the online format or through PDFs, with the ability to select materials focused on their particular areas of weakness.",
+      },
+    ],
+  },
+];

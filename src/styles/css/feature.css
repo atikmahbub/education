@@ -1,0 +1,34 @@
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feature-info , .feature-details{
+    display: flex;
+    flex-direction: column !important;
+}
+
+
+.feature-info{
+    width: 40%;
+    height: max-content;
+}
+
+.feature-details{
+    width: 60%;
+}
+
+.feature-title-text{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.feature-desc-text{
+    width: 90%;
+    text-align: justify;
+    margin-top: 10px;
+}
