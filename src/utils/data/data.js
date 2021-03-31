@@ -1,3 +1,7 @@
+import HOSTING_IMAGE1 from "../../utils/assets/images/asset4.jpeg";
+import HOSTING_IMAGE2 from "../../utils/assets/images/asset5.jpeg";
+import HOSTING_IMAGE3 from "../../utils/assets/images/asset6.jpeg";
+
 export const whyUsData = {
   header: "Why Us?",
   description: [
@@ -104,6 +108,7 @@ export const academicCardData = [
 export const hostingFeatureData = [
   {
     title: "pre-competition",
+    image: HOSTING_IMAGE1,
     description:
       "We’ve made setting up your competition as quick and simple as possible, minimizing logistical roadblocks at every step along the way.",
     features: [
@@ -126,21 +131,22 @@ export const hostingFeatureData = [
   },
   {
     title: "competition day",
+    image: HOSTING_IMAGE2,
     description:
       "Your competition day matters to us. When it’s time for your testing to begin, we’re here to make sure everything runs as smoothly as possible.",
     features: [
       {
-        header: "Security",
+        heading: "Security",
         description:
           "Students use their custom links to enter into the testing environment, where they are verified using their unique IDs. User screens can be recorded and locked into the testing environment, so any student attempts to leave the testing environment are tracked, recorded, and prevented. We can even require cameras to be on, but with the rest of our security measures, you might not even need this.",
       },
       {
-        header: "Live Troubleshooting",
+        heading: "Live Troubleshooting",
         description:
           "On testing day, we are available for immediate troubleshooting. Often, we can see and resolve issues from our end without the user even contacting us (with access to a host of information about the student computer). If this happens, we can re-set exams with the precise time left.",
       },
       {
-        header: "Exam, Answer Submission, and Grading",
+        heading: "Exam, Answer Submission, and Grading",
         description:
           "Our software supports a range of answer format options as appropriate (e.g., scientific notation) as well as the ability to toggle between acceptable formats. It also immediately closes out the exam when the time limit is up. After student answers are submitted, graded answer sheets and results across competitions are generated instantly. No more subjective grading or waiting for graders!",
       },
@@ -148,6 +154,7 @@ export const hostingFeatureData = [
   },
   {
     title: "post-competition",
+    image: HOSTING_IMAGE3,
     description:
       "Our support doesn’t end with the competition. In fact, we think our best work takes place when the competition is over.",
     features: [
@@ -158,11 +165,13 @@ export const hostingFeatureData = [
       },
       {
         heading: "Detailed Analytics",
+
         description:
           "Curious about how an individual student’s performance has evolved over time? Or about subjects where an entire team showed weakness? Or maybe you want to know how much time students spent on different types of questions. We’re here to help. We offer data-backed analytics that can be sent to student and coaches. Our detailed feedback can help students perform better in future competitions.",
       },
       {
         heading: "Practice Materials",
+
         description:
           "We won’t leave you hanging. We offer a range of targeted practice materials in our shop. Students can practice in the online format or through PDFs, with the ability to select materials focused on their particular areas of weakness.",
       },
