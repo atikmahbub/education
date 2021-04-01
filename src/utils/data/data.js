@@ -2,6 +2,12 @@ import HOSTING_IMAGE1 from "../../utils/assets/images/asset4.jpeg";
 import HOSTING_IMAGE2 from "../../utils/assets/images/asset5.jpeg";
 import HOSTING_IMAGE3 from "../../utils/assets/images/asset6.jpeg";
 
+import TEAM1 from "../../utils/assets/images/card1.jpg";
+import TEAM2 from "../../utils/assets/images/card2.jpg";
+import TEAM3 from "../../utils/assets/images/TEAM3.png";
+import TEAM4 from "../../utils/assets/images/team4.png";
+import TEAM5 from "../../utils/assets/images/team5.png";
+
 export const whyUsData = {
   header: "Why Us?",
   description: [
@@ -175,6 +181,121 @@ export const hostingFeatureData = [
         description:
           "We won’t leave you hanging. We offer a range of targeted practice materials in our shop. Students can practice in the online format or through PDFs, with the ability to select materials focused on their particular areas of weakness.",
       },
+    ],
+  },
+];
+
+export const teamData = [
+  {
+    name: "Javier A. Garcia",
+    designation: "Co-Founder & Tutor/Mentor",
+    image: TEAM1,
+    intro: [
+      "Hello! I am a recent graduate of Stanford University, Class of 2020, where I studied Mechanical Engineering with a concentration in Dynamic Systems and Controls.",
+      "My love for math and engineering began in high school thanks to an absolutely amazing teacher, Mr. Garza. I am even more fascinated by the application of math in real world systems, hence, my studies at Stanford. My goal as Co-Founder and Mathematics Tutor at Education Academy is to inspire students to learn, like Mr. Garza inspired me, and share my love of math and the knowledge of projects I’ve accumulated over the years.",
+      "More about me and my projects can be found at my personal website.",
+      "Thanks for visiting our page! I am excited to share my passion for math with you!",
+    ],
+    keypoints: [
+      "Stanford University Class of 2020; B.S. in Mechanical Engineering with a concentration in Dynamic Systems and Controls",
+      "6 First Place UIL Team Champion Titles",
+      "TMSCA High School Overall Top Dog in 2015 and 2016",
+      "Over 350 individual UIL trophies and medals",
+      "TMSCA Calculator State Meet Current Record Holder, 336/350",
+      "National AP Scholar",
+      "TMSCA Number Sense, Calculator and Math State Champion in 2016",
+      "Perfect Math SAT/GRE score",
+      "UIL Individual Calculator State Champion in 2016",
+      "Tutored over 80 students at Stanford",
+      "Began participating in UIL in 1st grade",
+    ],
+  },
+  {
+    name: "Juan V. Garcia",
+    designation: "Co-Founder & Tutor/Mentor",
+    image: TEAM2,
+    intro: [
+      "Hi! I am a recent graduate from Cornell University, Class of 2020, where I studied Operations Research and Information Engineering with a minor in Business.",
+      "My love for Mathematics and Engineering came at an early age when I was introduced to UIL Mathematics in 3rd grade. Being able to learn and apply the various topics within Math to the real world guided me to my studies at Cornell. My goal as Co-Founder and Mathematics Tutor at Education Academy is to share my love for the subject that has given me everything I have today, and ultimately, make it simpler (and fun!) for others to understand.  ",
+      "More about me and my projects can be found at my personal website. ",
+      "Thanks for visiting our page. I am excited to share my passion for math with you!",
+    ],
+    keypoints: [
+      "Cornell University Class of 2020; B.S. in Operations Research and Information Engineering, Minor in Business",
+      "Over 275 Individual UIL trophies and medals",
+      "UIL/TMSCA Number Sense State Champion in 2015 and 2016",
+      "AP Scholar",
+      "UIL Calculator State Champion in 2016",
+      "Perfect SAT Math score",
+      "TMSCA Calculator Applications State Champion in 2015 and 2016",
+      "Perfect SAT Math Subject score (Level 1&2)",
+      "1 of 3 competitors to break 300+ on 2016 UIL State Number Sense Test/placed 3rd overall",
+      "Tutored over 100 students both in high school and at Cornell",
+      "Began participating in UIL in 3rd grade",
+    ],
+  },
+  {
+    name: "Amy Huang",
+    designation: "Chief Design Officer",
+    image: TEAM3,
+    intro: [
+      "Hello! I am a senior at Cornell University majoring in Information Science and minoring in Business.",
+      "When I was in high school, I was often torn between my various interests, balancing my passion in the arts with what are considered more “valuable” skills in STEM. I heavily enjoyed writing, filmmaking, and performing whilst learning about the origins of the universe and calculating the speed of the USS Enterprise (yes, that was an actual question on my physics test). What I’ve come to realize is that the arts and STEM are not mutually exclusive: you can be curious, analytical, and creative without having to sacrifice what matters most: the thirst to learn.",
+      "Do not ever stop exploring! Your education is just the beginning.",
+    ],
+    keypoints: [
+      "Cornell University Class of 2021; B.A. in Information Science, Minor in Business",
+      "Siemens Competition National Semi-Finalist",
+      "Dean's List of the College of Arts & Sciences for Excellence in Scholarship",
+      "Science and Engineering Fair of Metro Detroit Category 1st Place",
+      "MIT INSPIRE National Finalist in Comparative Media Studies",
+      "AP Scholar with Distinction",
+      "Informative Speech State Finals Semi-Finalist",
+      "Tutored overed 150 college students in web design and programming",
+      "Scholastics Writing Awards (Multiple Regional Silver Keys and Honorable Mentions)",
+      "Tutored over 20 middle school students in Mandarin Chinese",
+    ],
+  },
+  {
+    name: "Amanda Orbuch",
+    designation: "President",
+    image: TEAM4,
+    intro: [
+      "Hi there! I’m Amanda, and I graduated from Stanford University in June 2020 with a B.A. in Philosophy, a minor in English, and honors in Ethics in Society.",
+      "I spend a lot of time thinking about concepts related to morality, practical ethics, law, and policy. All of this amounts to a concern for justice - for making sure people are given what they are due - and one of the biggest spaces of inequity, as I see it, is education. Education is foundational. It is critical to flourishing as a person and to accessing other liberties moving forward. That’s why I’m taking part in Education Academy’s mission as President. Because I believe that when it comes to education, we can and should do better.",
+      "Looking forward to pushing the boundaries of education with you!",
+    ],
+    keypoints: [
+      "Stanford University Class of 2020: B.A. in Philosophy and a minor in English",
+      "179/180 LSAT Score",
+      "Honors in Ethics in Society including Honors Thesis",
+      "APPE Intercollegiate Ethics Bowl National Semifinalist 2020",
+      "Perfect SAT Score (super-scored)",
+      "Tutored over 50 students on college applications, including personal statements and supplemental essays",
+      "Perfect ACT Score (super-scored)",
+      "Tutored Stanford students and affiliates on writing across genres",
+      "National Merit Finalist",
+      "Tutored French primary school students on spoken English",
+      "AP Scholar with Distinction",
+    ],
+  },
+  {
+    name: "Joel Garcia",
+    designation: "Technical Team Lead",
+    image: TEAM5,
+    intro: [
+      "Greetings everyone, my name is Joel Garcia, a graduate of the Edinburg North Class of 2018. ",
+      "I've been grateful to have been able to compete in a unique academic competition like UIL Academics while surrounding myself in a collaborative environment with brilliant minds. I've been proudly competing since grade school and can confidently say this competition has helped shape me into the unique individual I'm happy to be today.",
+      "I'm honored to be part of this team. We are all filled with passion and excitement to see other students enjoying what we loved while giving them opportunities to expand their horizon and reach even greater heights.",
+    ],
+    keypoints: [
+      "District Champion for Calculator Applications",
+      "Placed 9th at the TMSCA State meet in Calculator Applications",
+      "Top District Team for Calculator Applications",
+      "Placed 12th at the TMSCA State meet in Calculator Applications",
+      "Top District Team for Number Sense",
+      "Placed 4th at the TMSCA State meet in Calculator Applications",
+      "Placed 8th at the TMSCA State meet in Calculator Applications",
     ],
   },
 ];

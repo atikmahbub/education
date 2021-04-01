@@ -100,6 +100,86 @@
     margin-left: 10px;
 }
 
+.team-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    padding: 50px;
+}
+
+.team-card-upper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.team-card-upper-left{
+    width: 50%;
+
+}
+
+.team-button{
+    width: 50%;
+    display: block;
+    margin:auto
+}
+
+.team-image{
+    max-width: 400px;
+    display: block;
+    margin:auto;
+    margin-bottom: 30px;
+
+}
+
+.team-card-lower{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    width: 85%;
+}
+
+.team-keys{
+    flex: 1 0 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.team-tick{
+    margin-right: 10px; 
+    background-color : #DFECDB;
+    border-radius: 50%;
+}
+
+.team-keypoints{
+    width: 90%;
+}
+
+.team-member-name{
+    font-size :  1.8rem;
+    line-height : 2rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.team-member-designation{
+    font-size :  1.4rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.team-member-intro{
+    text-align: justify;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+
 @media only screen and (max-width: 768px) {
     .card-desc{
         width: 100%;
@@ -107,4 +187,20 @@
     .small-card{
         margin-bottom: 20px;
     }
+    .team-card-upper{
+        flex-direction: column;
+    }
+    .team-card-upper-left{
+        width: 100%;
+        margin: 20px !important;
+    }
+    .team-card-lower{
+        width: 100% !important;
+    }
+    .team-keys{
+        flex: 1 1 100%;
+        padding-left:  0px !important;
+        padding-right: 0px !important;
+    }
+
 }

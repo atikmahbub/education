@@ -10,6 +10,7 @@ import "./styles/css/title.css";
 import "./styles/css/tutoring.css";
 import "./styles/css/hosting.css";
 import "./styles/css/feature.css";
+import "./styles/css/team.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
