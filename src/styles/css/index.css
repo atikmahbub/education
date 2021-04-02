@@ -37,3 +37,29 @@ border-radius: 20px;
 ::-webkit-scrollbar-thumb:hover {
 background: #453D80; 
 }
+
+.Logo{
+    width: 140px;
+    position: absolute;
+    margin-top: -20px;
+    left : 40px;
+}
+
+
+.bar{
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+}
+
+.bar:hover{
+    height: 12px;
+    transition: height .5s;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Logo{
+        left : 20px
+    }
+}

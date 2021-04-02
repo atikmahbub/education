@@ -11,6 +11,7 @@ import "./styles/css/tutoring.css";
 import "./styles/css/hosting.css";
 import "./styles/css/feature.css";
 import "./styles/css/team.css";
+import "./styles/css/contact.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
