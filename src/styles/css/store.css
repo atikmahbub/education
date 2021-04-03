@@ -1,0 +1,29 @@
+.tab-page{
+    padding: 100px;
+}
+
+.tab-page .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color :  transparent !important;
+    color : gray !important;
+}
+
+.tab-page .nav-link{
+    color :  #000000 !important
+}
+
+.tab-response{
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+    .tab-page{
+        padding: 30px;
+    }
+    .tab-response{
+        flex-direction: row;
+    }
+    .store-desc{
+        padding: 35px;
+        margin-top: -30px !important;
+    }
+}

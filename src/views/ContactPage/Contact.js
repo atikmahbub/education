@@ -6,11 +6,16 @@ import TitleDescription from "../../components/TitleDescription";
 import CONTACT_IMAGE from "../../utils/assets/images/contactimage.jpeg";
 import { FaFacebookF } from "react-icons/fa";
 import ContactForm from "./ContactForm";
+import PricingEstimate from "./PricingEstimate";
+import { InlineWidget } from "react-calendly";
 
 const Contact = () => {
   const description = [
     "Please fill out the form for tutoring inquiries. We will get back to you within 24 hours.",
     "For a quick consultation, set up a meeting with us through Calendly below.",
+  ];
+  const pricingDesc = [
+    "Please fill out our calculator to the right. Keep in mind these prices are only estimates. Reach out to us above for exact pricing and scheduling.",
   ];
   return (
     <div className="contact-page">
@@ -58,6 +63,23 @@ const Contact = () => {
         </div>
         <div className="contact-form-container-right">
           <ContactForm />
+        </div>
+      </div>
+      <div className="scheduling">
+        <InlineWidget url="https://calendly.com/educationacademy/consultationsession?embed_domain=educationacademy.xyz&embed_type=Inline&primary_color=f1a737" />
+      </div>
+      <div className="pricing-estimate-container">
+        <div className="pricing-estimate-left">
+          <LeftTitle
+            header="Pricing Estimate"
+            description={pricingDesc}
+            headerColor="white"
+            descColor="white"
+            hideButton
+          />
+        </div>
+        <div className="pricing-estimate-right">
+          <PricingEstimate />
         </div>
       </div>
     </div>

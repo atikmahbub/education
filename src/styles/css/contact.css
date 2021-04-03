@@ -1,8 +1,9 @@
 .contact-page{
     margin-top :  120px;
+    overflow-x: hidden !important;
 }
 
-.contact-form-container{
+.contact-form-container,.pricing-estimate-container{
     width: 100%;
     background-color: #423A7B;
     padding: 100px;
@@ -10,10 +11,22 @@
     justify-content: space-around;
 }
 
+.pricing-estimate-container{
+    margin: auto;
+    width: 95%;
+    margin-bottom: 40px;
+}
+
 .contact-form-container-left,.contact-form-container-right{
     width: 50%;
 }
 
+
+.scheduling{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
 
 .contact-image{
     width: 90%;
@@ -34,15 +47,47 @@
 }
 
 
-.form-control{
+.contact-form .form-control{
     border: none !important;
     border-bottom: 2px solid #423A7B !important;
     border-radius: 0px !important;
     padding: 2px !important;
 }
 
-.form-control:focus{
+.contact-form .form-control:focus{
     box-shadow: none !important;
+}
+
+.pricing-estimate-left{
+    width: 40%;
+}
+
+.pricing-estimate-right{
+    width: 58%;
+}
+
+
+.pricing-estimate{
+    background-color:  #72C861;
+    padding: 20px;
+    min-height :  100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+
+.pricing-estimate div:nth-child(1){
+    font-size: .8rem;
+    font-weight: bold;
+    margin-bottom :  10px;
+    color : #ffffff;
+}
+
+.pricing-estimate div:nth-child(2){
+    font-size : 1.8rem;
+    color : #ffffff;
+    font-weight : bold;
 }
 
 
@@ -50,7 +95,7 @@
     .contact-highlights{
         padding :30px
     }
-    .contact-form-container{
+    .contact-form-container, .pricing-estimate-container{
         flex-direction: column;
         padding: 40px 20px;
     }
@@ -62,5 +107,12 @@
         margin-left: 0px;
         margin-top: 40px;
         padding: 30px;
+    }
+    .pricing-estimate-left{
+        width: 100%;
+    }
+    
+    .pricing-estimate-right{
+        width: 100%;
     }
 }

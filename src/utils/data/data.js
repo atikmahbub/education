@@ -299,3 +299,23 @@ export const teamData = [
     ],
   },
 ];
+
+export const AcademicLevelData = [
+  "Elementary School",
+  "High School",
+  "Middle School",
+  "Undergarduate",
+];
+
+export const courseFieldData = [
+  "Sat/Act Prep",
+  "UIL academics tutoring",
+  "Pre-Algebra",
+  "Geometry",
+  "Algebra I",
+  "Algebra II",
+  "Trigonometry",
+  "Calculus",
+  "Probablity & Statistics",
+  "Others",
+];

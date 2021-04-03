@@ -5,6 +5,7 @@ const TutoringPage = lazy(() => import("../views/TutoringPage/Tutoring"));
 const HostingPage = lazy(() => import("../views/HostingPage/Hosting"));
 const TeamPage = lazy(() => import("../views/TeamPage/Team"));
 const ContactPage = lazy(() => import("../views/ContactPage/Contact"));
+const StorePage = lazy(() => import("../views/StorePage/Store"));
 
 export const routes = [
   { pathname: "/", name: "Home", component: Home },
@@ -12,4 +13,5 @@ export const routes = [
   { pathname: "/hosting", name: "Tutoring", component: HostingPage },
   { pathname: "/team", name: "Tutoring", component: TeamPage },
   { pathname: "/contact", name: "Contact", component: ContactPage },
+  { pathname: "/store", name: "Store", component: StorePage },
 ];

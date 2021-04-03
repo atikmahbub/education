@@ -21,7 +21,9 @@ const NavigationBar = () => {
           <Nav.Link href="/hosting">hosting</Nav.Link>
           <Nav.Link href="/team">team</Nav.Link>
           <Nav.Link href="/contact">contact</Nav.Link>
-          <Button className="green-button-nav">store</Button>
+          <Button className="green-button-nav" href="/store">
+            store
+          </Button>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
