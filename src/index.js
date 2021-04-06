@@ -13,6 +13,7 @@ import "./styles/css/feature.css";
 import "./styles/css/team.css";
 import "./styles/css/contact.css";
 import "./styles/css/store.css";
+import "react-toastify/dist/ReactToastify.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

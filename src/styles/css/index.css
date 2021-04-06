@@ -58,6 +58,20 @@ background: #453D80;
 }
 
 
+.Toastify__toast {
+    background-color: #ffffff !important;
+    padding: 1rem !important;
+    box-shadow: 0px 0px 20px #0000000d !important;
+  }
+
+  .Toastify__toast-body {
+    font-size: 1rem !important;
+    color: black !important;
+  }
+  .Toastify__progress-bar {
+    background-color: black !important;
+  }
+
 @media only screen and (max-width: 768px) {
     .Logo{
         left : 20px
